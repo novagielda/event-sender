@@ -1,13 +1,13 @@
 ## Event Sender
 
-An interface for sending analytics events from Waves JS applications.
+An interface for sending analytics events from NovaGielda JS applications.
 
 ---
 
 Usage:
 
 ```javascript
-import EventSender from '@waves/event-sender';
+import EventSender from '@novagielda/event-sender';
 
 // EventSender is a singleton, so any new attemps at instantiation
 // will return a reference to a previously created instance
